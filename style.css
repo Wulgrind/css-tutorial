@@ -1,1 +1,89 @@
-test
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    background-color: aquamarine;
+    height : 100%;
+    margin: 0%;
+}
+
+p {
+    color: blue;
+
+}
+
+#p-tag{
+    color: red;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+}
+
+.section1 {
+    position : relative;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    gap: 10px;
+    background-color: bisque;
+    border-radius : 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5), -2px -2px -5px rgba(0,0,0,0.5);
+    z-index : 10;
+}
+
+.section1b {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    gap: 10px;
+}
+
+.section1c {
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    gap: 10px;
+}
+
+.section1 p {
+    position : relative;
+    height: 5em;
+    background-color : yellow;
+    color: rgba(166, 0, 255, 0.3);
+    border: 1px solid black;
+    flex: 2;
+    border-radius : 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5), -2px -2px -5px rgba(0,0,0,0.5);
+    z-index : 10;
+}
+
+.section1b p {
+    height: 5em;
+    background-color : yellow;
+    color: rgba(166, 0, 255, 0.3);
+    border: 1px solid black;
+}
+
+.section1c p {
+    height: 5em;
+    background-color : yellow;
+    color: rgba(166, 0, 255, 0.3);
+    border: 1px solid black;
+}
+
+.section2 p {
+    color: #00FFFF90;
+    background-color : black;
+    display: block;
+    height: 20vh;
+}
+
+.section3 {
+    color :rgba(1, 1, 1, 0.9);
+    background-color :antiquewhite;
+    padding : 50px 10px 50px 10px;
+    margin: 5em;
+    border: 5px solid black;
+}
